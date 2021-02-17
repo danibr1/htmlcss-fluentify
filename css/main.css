@@ -19,7 +19,7 @@ h4{
 }
 
 hr{
-    border-top: 2px solid black;
+    border-top: 2px solid #e5e5e5;
 }
 
 /* UTILITIES */
@@ -186,13 +186,26 @@ hr{
     font-weight: 500;
 }
 
+/* COLUMS */
+
 .colums .col{
     float: left;
-    width: 30%;
-    height: 600px;
-    /* background-color: #427388; */
-    margin-bottom: 20px;
+    width: 33%;
+    height: 400px;
+    background-color: #719eb1;
+    margin: 20px 0;
 }
 .colums .col:nth-child(2){
-    margin: 0 5px;
+    margin: 20px 5px;
+}
+
+
+/* DISCOVER */
+
+.discover .col{
+    float: left;
+    width: 50%;
+    height: 400px;
+    background: lightcoral;
+    margin: 20px 0;
 }
