@@ -1,6 +1,77 @@
+/* GENERAL */
 *{
     margin: 0;
     border: 0;
     box-sizing: border-box;
-    font-family: sans-serif;
+}
+
+body{
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    color: #808080 ;
+}
+
+h1,
+h2,
+h3,
+h4{
+    font-weight: 500;
+}
+
+/* UTILITIES */
+
+/* Layout */
+.container{
+    width: 1200px;
+    margin:0 auto;
+}
+
+.clearfix::after{
+    content:'';
+    display: table;
+    clear: both;
+}
+
+.float-left{
+    float: left;
+}
+
+/* Navigazione */
+.menu-inline li{
+    display: inline-block;
+    list-style: none;
+    margin-right: 20px;
+ }
+
+ .menu-inline li:last-child{
+    margin-right: 0;
+}
+
+
+
+/* MAIN HEADER */
+.main-header{
+    line-height: 80px;
+    font-size: 12px;
+    text-transform: uppercase;
+    background-color: #0d325a;
+}
+
+.main-header .logo{
+    width: 15%;
+}
+
+.main-header .logo img{
+    vertical-align: middle;
+    position: relative;
+    bottom: 5px;
+}
+
+.main-header .nav-center{
+    width: 45%;
+}
+
+.main-header .nav-right{
+    width: 40%;
+    text-align: right;
 }
