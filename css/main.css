@@ -81,6 +81,11 @@ h4{
     padding:20px;
 }
 
+/* Main */
+.center{
+    text-align: center;   
+}
+
 
 /* MAIN HEADER */
 .main-header{
@@ -153,3 +158,21 @@ h4{
     font-size: 50px ;
     color: white;
 }
+
+/* TOP BANNER */
+.gray-banner{
+    height: 130px;
+    background:#d3d3d3;
+}
+
+.top-banner h2{
+    color: black;
+    font-weight: 500;
+    padding-top: 30px;
+}
+.top-banner p{
+    padding-top: 10px;
+    font-weight: 500;
+}
+
+
