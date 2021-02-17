@@ -18,7 +18,18 @@ h4{
     font-weight: 500;
 }
 
+hr{
+    border-top: 2px solid black;
+}
+
 /* UTILITIES */
+
+.clearfix::after{
+    content:'';
+    display: table;
+    clear: both;
+}
+
 
 /* Layout */
 .container{
@@ -175,4 +186,13 @@ h4{
     font-weight: 500;
 }
 
-
+.colums .col{
+    float: left;
+    width: 30%;
+    height: 600px;
+    /* background-color: #427388; */
+    margin-bottom: 20px;
+}
+.colums .col:nth-child(2){
+    margin: 0 5px;
+}
