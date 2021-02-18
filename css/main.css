@@ -100,10 +100,13 @@ hr{
 
 /* MAIN HEADER */
 .main-header{
+    position: fixed;
+    top: 0;
+    width: 100%;
     line-height: 80px;
     font-size: 12px;
     text-transform: uppercase;
-    background-color: #0d325a;
+    background-color: #0d325a81;
 }
 
 .main-header .logo{
@@ -140,11 +143,12 @@ hr{
 }
 
 
-/* MAIN */
+/* --- MAIN --- */
 
 /* JUMBOTRON */
 .jumbotron{
-    height: 480px;
+    height: 560px;
+    padding-top:80px;
     background: #0d325a;
     background-image: url('../img/background-header.png');
     background-size: 1000px;
