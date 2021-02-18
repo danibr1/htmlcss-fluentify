@@ -55,8 +55,15 @@ hr{
     width: 50%;
 }
 
+.m-right30{
+    margin-right: 30px;
+}
 .m-bottom50{
     margin-bottom: 50px;
+}
+
+.padding50{
+    padding: 50px;
 }
 
 .font-size12{
@@ -113,6 +120,16 @@ hr{
 .center-green{
     text-align: center;
     color: #7cbb01;   
+}
+
+/* --- HELP --- */
+.help.btn {
+    min-width: 50px;
+    position: fixed;
+    bottom: 0;
+    right: 300px;
+    border-radius: 5px 5px 0 0;
+    z-index: 10;
 }
 
 
@@ -220,9 +237,6 @@ hr{
 
 
 /* DISCOVER */
-.discover .discover-text{
-    padding: 0 70px;
-}
 .discover .discover-text h2{
     font-size: 30px;
 }
@@ -234,3 +248,23 @@ hr{
     color: #6893c3;
 }
 
+
+/* FOOTER */
+footer .container{
+    padding:30px;
+}
+
+footer h2{
+    padding:20px;
+}
+
+footer .footer-right{
+    text-align: right;
+}
+
+footer .footer-right .select{
+    display: inline-block;
+    border-bottom: 1px solid #9b9b9b;
+    line-height: 1;
+    cursor: pointer;
+}
