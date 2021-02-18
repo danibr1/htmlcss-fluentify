@@ -22,7 +22,7 @@ hr{
     border-top: 2px solid #e5e5e5;
 }
 
-/* UTILITIES */
+/* --- UTILITIES ---*/
 
 .clearfix::after{
     content:'';
@@ -47,6 +47,10 @@ hr{
     float: left;
 }
 
+.w-50{
+    width: 50%;
+}
+
 /* Menu */
 .menu-inline li{
     display: inline-block;
@@ -58,9 +62,6 @@ hr{
     margin-right: 0;
 }
 
-.w-50{
-    width: 50%;
-}
 
 /* Buttons */
 .btn{
@@ -95,6 +96,12 @@ hr{
 /* Main */
 .center{
     text-align: center;   
+}
+
+/* H2 main colums  */
+.center-green{
+    text-align: center;
+    color: #7cbb01;   
 }
 
 
@@ -190,18 +197,24 @@ hr{
     font-weight: 500;
 }
 
-/* COLUMS */
+/* STRENGHTS */
 
-.colums .col{
-    float: left;
+.strenghts .col{
     width: 33%;
-    height: 400px;
-    background-color: #719eb1;
-    margin: 20px 0;
+    margin: 50px 0;
+    padding: 0 30px;
 }
-.colums .col:nth-child(2){
-    margin: 20px 5px;
+
+
+.strenghts .col img{
+    height: 150px;
+    margin-bottom: 20px;
 }
+.strenghts hr{
+    width: 25%;
+    margin:30px auto;
+}
+
 
 
 /* DISCOVER */
