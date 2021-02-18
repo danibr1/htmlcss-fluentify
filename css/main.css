@@ -1,4 +1,4 @@
-/* GENERAL */
+/* --- GENERAL --- */
 *{
     margin: 0;
     border: 0;
@@ -19,6 +19,7 @@ h4{
 }
 
 hr{
+    margin: 50px 0;
     border-top: 2px solid #e5e5e5;
 }
 
@@ -30,6 +31,9 @@ hr{
     clear: both;
 }
 
+.c-black{
+    color: black;
+}
 
 /* Layout */
 .container{
@@ -51,6 +55,14 @@ hr{
     width: 50%;
 }
 
+.m-bottom50{
+    margin-bottom: 50px;
+}
+
+.font-size12{
+    font-size: 12px;
+}
+
 /* Menu */
 .menu-inline li{
     display: inline-block;
@@ -61,7 +73,6 @@ hr{
  .menu-inline li:last-child{
     margin-right: 0;
 }
-
 
 /* Buttons */
 .btn{
@@ -105,13 +116,12 @@ hr{
 }
 
 
-/* MAIN HEADER */
+/* --- MAIN HEADER --- */
 .main-header{
     position: fixed;
     top: 0;
     width: 100%;
     line-height: 80px;
-    font-size: 12px;
     text-transform: uppercase;
     background-color: #0d325a81;
 }
@@ -144,14 +154,12 @@ hr{
     color:#a5e624;
 }
 
-
 .main-header a.btn {
    line-height: 12px;
 }
 
 
 /* --- MAIN --- */
-
 /* JUMBOTRON */
 .jumbotron{
     height: 560px;
@@ -187,24 +195,19 @@ hr{
     background:#d3d3d3;
 }
 
+.top-banner{
+    padding: 30px 0;
+}
 .top-banner h2{
-    color: black;
-    font-weight: 500;
-    padding-top: 30px;
+    margin-bottom: 10px;
 }
-.top-banner p{
-    padding-top: 10px;
-    font-weight: 500;
-}
+
 
 /* STRENGHTS */
-
 .strenghts .col{
     width: 33%;
-    margin: 50px 0;
     padding: 0 30px;
 }
-
 
 .strenghts .col img{
     height: 150px;
@@ -216,14 +219,18 @@ hr{
 }
 
 
-
 /* DISCOVER */
+.discover .discover-text{
+    padding: 0 70px;
+}
+.discover .discover-text h2{
+    font-size: 30px;
+}
+.discover .discover-text p{
+    margin:15px 0;
+}
 
-.discover .col{
-    float: left;
-    width: 50%;
-    height: 400px;
-    background: lightcoral;
-    margin: 20px 0;
+.discover .discover-text a{
+    color: #6893c3;
 }
 
